@@ -21,28 +21,6 @@ def merge(arrA, arrB):
     return merged_arr
 
 
-    # TO-DO
-"""
-    while iA < len(arrA) and iB < len(arrB):
-        print(merged_arr)
-        if arrA[iA] < arrB[iB]:
-            merged_arr[iM] = arrA[iA]
-            iA += 1
-            iM += 1
-
-        else:
-            merged_arr[iM] = arrB[iB]
-            iB += 1
-            iM += 1
-
-
-
-a = [9, 4, 0]
-b = [7, 1, 5]
-
-print(merge(a, b))
-"""
-
 # TO-DO: implement the Merge Sort function below USING RECURSION
 
 
@@ -61,9 +39,6 @@ def merge_sort(arr):
     # 4. Repeat step 3 until the entire data set has been reassembled
     return arr
 
-
-a = [6, 9, 3, 7, 4, 1, 5, 2, 8]
-print(merge_sort(a))
 
 # STRETCH: implement an in-place merge sort algorithm
 
