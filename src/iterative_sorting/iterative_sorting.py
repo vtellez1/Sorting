@@ -51,3 +51,19 @@ def bubble_sort(arr):
 def count_sort(arr, maximum=-1):
 
     return arr
+
+
+strings = ["Google", "Apple", "Microsoft"]
+
+
+def sort_length(arr):
+    for i in range(0, len(arr)):
+        print(arr)
+        for x in range(0, len(arr)-1):
+            if len(arr[x]) > len(arr[x+1]):
+                arr[x], arr[x+1] = arr[x+1], arr[x]
+
+    return arr
+
+
+print(sort_length(strings))
